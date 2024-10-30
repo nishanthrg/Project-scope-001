@@ -1,0 +1,160 @@
+body{
+    background-color: darkblue;
+    background-image: url(code-1839406_1280.jpg);
+    background-size: 100%;
+    background-blend-mode:overlay;
+
+
+}
+img{
+    padding: -5px;
+}
+.box{
+    background-color: rgb(204, 185, 170);
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 90px;
+}
+.second{
+    background-color: rgb(204, 185, 170);
+    width: 300px;
+    height: 400px;
+    padding: 50px;
+    border-radius: 50px;
+}
+.first{
+    background-color: rgb(204, 185, 170);
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 450px;
+    margin-top: -60px;
+}
+.third{
+    background-color: rgb(204, 185, 170);
+    width: 300px;
+    height: 400px;
+    padding: 50px;
+    border-radius: 50px;
+    margin-left: 900px;
+    margin-bottom: 300px;
+    margin-top: -500px;
+}
+.third1{
+    background-color: rgb(204, 185, 170);
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 950px;
+    margin-bottom: 0px;
+    margin-top: -450px;
+    
+}
+h2{
+    color: antiquewhite;
+    font-family: monospace;
+}
+p{
+    color: whitesmoke;
+}
+.course1{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+.p1{
+    color:gray;
+}
+.grid{
+    display: grid;
+    gap: 10px;
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 55px;
+    cursor: pointer;
+    
+}
+.grid1{
+    display: grid;
+    gap: 10px;
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 55px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.grid2{
+    display: grid;
+    gap: 10px;
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 55px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.grid3{
+    display: grid;
+    gap: 10px;
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 55px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+div{
+    text-align: center;
+    font-size: 20px;
+   
+   
+}
+.grid02,.grid03,.grid04,.grid05{
+    font-family: monospace;
+    color: rgb(133, 59, 7);
+}
+.grid02:hover,.grid03:hover,.grid04:hover,.grid05:hover{
+    color: rgb(12, 11, 11);
+    
+}
+footer{
+    background-color:darkblue;
+    padding-bottom: 10px;
+    background-image: url(iso_iaflogo.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    padding-right: 20px;
+    
+    
+    
+}
+
+
+.image2:hover{
+    transform: scale(1);
+    animation-name: name;
+    animation-duration: 3s;
+    position: relative;
+    
+}
+@keyframes name{
+    from{transform: scale(1);}
+    to{transform: scale(1.5);}
+}
+.grid:hover , .grid1:hover , .grid2:hover , .grid3:hover{
+    background-color: grey;
+    
+}
+.p1:hover{
+    filter: brightness(180%);
+}
+.p2:hover{
+    filter: drop-shadow(2px 3px 3px blue);
+}
